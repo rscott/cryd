@@ -1,6 +1,10 @@
 # cryd
 Cry detection in python
 
+## TODO
+* set and count detected cries based on a per minute threshold for alerting
+* alert with SMS via Twilio https://www.twilio.com/sms/pricing/us
+
 ## Dependencies 
 aubio, numpy, pyaudio
 
