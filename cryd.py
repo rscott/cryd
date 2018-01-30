@@ -40,7 +40,8 @@ while True:
     print(volume)
     
 
-    #midpass filter crying frequencies into the buffer
+    # midpass filter crying frequencies into the buffer
+    # freq range from http://research.ijcaonline.org/iceice/number3/iceice022.pdf
     
     if 300 <= pitch <= 650:
         buffer.append(pitch)
