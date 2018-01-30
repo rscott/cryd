@@ -6,8 +6,10 @@ Cry detection in python
 * alert with SMS via Twilio https://www.twilio.com/sms/pricing/us
 
 ## Dependencies 
-aubio, numpy, pyaudio
-
+brew install aubio
+brew install portaudio
+pip install pyaudio
+pip install aubio
 ## Usage
 `python cryd.py`
 
